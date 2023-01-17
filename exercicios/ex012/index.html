@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML</title>
+    <link rel="stylesheet" href="/html-css/exercicios/css/style.css">
+</head>
+<body>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/U0kxkksURss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos de sites de animes</h1>
+    <iframe width="560" height="315" src="https://animesup.biz/Player/Play/mp4.php?v=ImUxyUq10FEMUjNMooiwCoMtM2B7TTRBdHrAnZfxwGFANmD/4PlESCPu2PGHxEqYGbbm9kFQBV+BvXeaVP4asCDSStc=&img=https://animesup.biz/wp-content/uploads/2022/04/picfamily.jpg&id=84937" title="AnimesUp video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p> <!-- Da muito gasto -->
+    <!-- Forma limitada
+    <video src="midia/animal-fofo.mp4" preload="metadata" width="400" height="200" controls></video>
+    -->
+    <video poster="imagens/capa-video.jpg" preload="metadata" controls width="560" height="315">
+        <source width="560" height="315" src="midia/animal-fofo.mp4" type="video/mp4">
+        <source width="560" height="315" src="midia/animal-fofo.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+</body>
+</html>

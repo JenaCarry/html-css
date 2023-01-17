@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+:root {
+    --var0:#EDF1F5;
+    --var1:#CED5F3;
+    --var2:#74B4F3;
+    --var3:#3DB4F2;
+    --var4: #2B2D42;
+    --fonte-destaque: 'Poppins', sans-serif;
+}
+
+/* geral */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, span {
+    margin: 0;
+    color: var(--var1);
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+/* header */
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+/* navbar */
+nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--var4);
+}
+
+nav::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.nav-container ul {
+    font-weight: bold;
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container li {
+    list-style: none;
+    float: left;
+    margin: 0px 15px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: var(--var1);
+    transition: .3s;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.nav-container li a:hover {
+    background-color: var(--var1);
+    color: var(--var4);
+}
+
+.nav-container li a:active {
+    background-color: #c0c6e0;
+}
+
+aside {
+    padding-top: 150px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <!-- Fonte mono espaçada -->
+    <p>O comando
+        <code>document.getElementById('teste')</code>
+        é escrito em linguagem JavaScript, usando a tag &lt;code&gt;.
+    </p>
+    <p>A tag &lt;pre&gt; considera os espaços e quebras de linha, deixa o código indentado.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número: '))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR!')
+    else:
+        print(f'O número {num} é ÍMPAR!')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>A tag &lt;q&gt; serve para adicionar aspas para citações.</p>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+    <h2>Citações completas</h2>
+    <p>A tag &lt;blockquote&gt; serve para adicionar um "blockquote" (bloco de citação).</p>
+    <p>Segundo Maurício Samy Silva, no seu livro Fundamentos de HTML5 e CSS3:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1">
+        <p>Uma tag HTML é constituída por uma ou mais letras, ou letra e número, que devem ser escritas entre os sinais de &lt; e &gt;. A tag de fechamento é igual a tag de abertura com um sinal de barra / na frente.</p>
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>A tag &lt;abbr&gt; serve para mostrar o significado da abreviação.</p>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>

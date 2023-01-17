@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm ,in(polegada), "px", [pt(ponto), pc(paica) - usado em papel]
+
+            Medidas Relativas
+            "em"(relativa ao tamanho atual da fonte), ex(relativo a altura x da fonte), rem(relativo a fonte do body), vw(view width - largura da view port), vh(view height - altura da view port), %(porcentagem)
+
+            font-size: 16px; tamanho padrão e geralmente é igual a 1em
+            Recomendação - usar px e em
+            */
+            font-size: 1em;
+            /* 
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: underline;
+
+            Pesos Literais
+            lighter, normal, bold, bolder 
+            */
+        }
+
+        h1 {
+            /* Shorthand(font) - font-style -> font-weight -> font-size -> font-family */
+            font: italic bold 3em 'work Sans', sans-serif;
+        }
+        
+        h2 {
+            font: bold 2em 'work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellat incidunt recusandae vero assumenda quia praesentium aliquid sunt neque asperiores, non maxime dolor rem, inventore dolores tempore dolore odio rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime, esse, natus ipsum iste, praesentium corrupti sed illum ex culpa voluptatum voluptas ut deleniti nobis sit sapiente officia atque laborum?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quis ut reiciendis, quae adipisci distinctio, ipsa, perferendis maxime magni reprehenderit doloremque illum? Dolorum cupiditate assumenda nobis. Quia aliquid animi ipsam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. At libero eaque similique blanditiis, illo tempore veritatis beatae laboriosam fugit reiciendis ipsa perferendis cupiditate adipisci natus doloribus dolorem quos nemo voluptatum.</p>
+    <a href="fonte02.html" target="_self" rel="next">Fonte 02</a>
+</body>
+</html>

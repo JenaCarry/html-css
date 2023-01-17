@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body {
+    font: normal normal 1.3em 'Times New Roman', Times, serif;
+    background: rgb(34, 32, 32);
+    color: white;
+}
