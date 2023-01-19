@@ -99,3 +99,28 @@ nav::after {
 aside {
     padding-top: 150px;
 }
+
+
+@media screen and (max-width: 1024px) {
+    #logo {
+        position: absolute;
+        left: 50px;
+    }
+
+    .nav-container ul {
+        float: none;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .nav-container ul li {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+
+}
