@@ -16,6 +16,7 @@ html {
 
 body {
     margin: 0;
+    background-color: var(--var0);
 }
 
 h1, h2, h3, h4, h5, p, span {
@@ -96,10 +97,84 @@ nav::after {
     background-color: #c0c6e0;
 }
 
-aside {
-    padding-top: 150px;
+main {
+    padding-top: 6.5em;
+    padding-left: 5em;
+    padding-bottom: 60px;
 }
 
+.main-container h2 {
+    padding-top: 20px;
+    font-size: 2em;
+    color: #6d6d6d;
+}
+
+.main-container ul {
+    padding-left: 10px;
+    text-align: left;
+    list-style: circle;
+    line-height: 30px;
+    font-size: 1.1em;
+}
+
+.main-container li {
+    padding-top: 10px;
+}
+
+.main-container li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.main-container li a:hover {
+    color: #3381F3;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn a {
+    /* text-transform: uppercase; */
+    /* background-color: #fff; */
+    color: #3381F3;
+    /* border: 2px solid #3381F3; */
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 4px 8px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.btn a:hover {
+    background-color: #3381F3;
+    color: #FFF;
+    transition: .5s;
+}
+
+footer {
+    padding: 10px 0;
+    width: 100%;
+    background-color: var(--var4);
+    text-align: center;
+}
+
+.footer-container p, .footer-container a {
+    font-size: 1em;
+    color: var(--var1);
+}
+
+.footer-container a {
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer-container a:hover {
+    background-color: var(--var1);
+    color: var(--var4);
+}
 
 @media screen and (max-width: 1024px) {
     #logo {
@@ -121,6 +196,4 @@ aside {
         display: inline-block;
         margin: 0 10px;
     }
-
-
 }
