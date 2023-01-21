@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
     font-family: 'Android';
     src: url('../fontes/idroid.otf') format(opentype);
@@ -15,7 +16,7 @@
     --var3: #51406B;
     --var4: #3E206B;
     --var5: #211138;
-    
+
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
@@ -32,7 +33,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--var0), var(--var1), var(--var2) ,var(--var4));
+    background-image: linear-gradient(to bottom, var(--var0), var(--var1), var(--var2), var(--var4));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -74,7 +75,7 @@ nav a {
     transition-duration: 0.3s;
 }
 
-nav > a:hover {
+nav>a:hover {
     background-color: var(--var0);
     color: white;
     border-radius: 5px;
@@ -130,20 +131,22 @@ main img {
 
 main img.pequena {
     max-width: 350px;
-    display: block; /*imagem por padrão náo é um bloco*/
+    display: block;
+    /*imagem por padrão náo é um bloco*/
     margin: auto;
 }
 
 div.video {
     background-color: var(--var2);
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
+    /* 16:9 */
     position: relative;
     margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
 }
 
-div.video > iframe {
+div.video>iframe {
     width: 90%;
     height: 90%;
     position: absolute;
@@ -209,7 +212,7 @@ footer p a {
     transition-duration: 0.3s;
 }
 
-footer p  a:hover {
+footer p a:hover {
     background-color: var(--var0);
     color: white;
     border-radius: 5px;
@@ -245,12 +248,14 @@ footer p  a:hover {
     }
 
     article h1 {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 1.4em;
         line-height: 30px;
         text-align: center;
     }
 
     article h2 {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2em;
         text-indent: 0;
         text-align: center;
