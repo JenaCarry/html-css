@@ -99,7 +99,7 @@ nav::after {
 
 main {
     padding-top: 6.5em;
-    padding-left: 5em;
+    padding-left: 40px;
     padding-bottom: 60px;
 }
 
@@ -135,10 +135,7 @@ main {
 }
 
 .btn a {
-    /* text-transform: uppercase; */
-    /* background-color: #fff; */
     color: #3381F3;
-    /* border: 2px solid #3381F3; */
     border-radius: 5px;
     text-decoration: none;
     padding: 4px 8px;
@@ -176,24 +173,23 @@ footer {
     color: var(--var4);
 }
 
-@media screen and (max-width: 1024px) {
-    #logo {
-        position: absolute;
-        left: 50px;
+@media screen and (max-width: 600px) {
+    main {
+        padding-left: 30px;
     }
 
-    .nav-container ul {
-        float: none;
-        text-align: center;
-        padding-left: 0;
+    .menu-icon {
+        display: block;
+        float: right;
+        margin-top: 40px;
+        margin-right: 20px;
     }
 
-    .nav-container ul li {
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-        display: inline-block;
-        margin: 0 10px;
+    header nav.nav-container ul li {
+        display: block;
+    }
+
+    .nav-container ul li a {
+        padding: 0;
     }
 }
