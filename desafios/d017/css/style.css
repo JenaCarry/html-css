@@ -45,6 +45,7 @@ body {
 }
 
 .title {
+    font-size: .745em;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -79,4 +80,10 @@ section p {
 .section-dark {
     background-color: #282e34;
     color: #ddd;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 1em;
+    }
 }
