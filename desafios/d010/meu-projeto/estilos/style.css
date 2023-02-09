@@ -36,7 +36,7 @@ header {
     background-image: linear-gradient(to bottom, var(--var0), var(--var1), var(--var2), var(--var4));
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 42px;
 }
 
 header h1 {
@@ -59,7 +59,22 @@ header p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
+span {
+    color: #F0EFD8;
+}
+
+span.menu {
+    display: none;
+    font-size: 40px;
+}
+
+span.close {
+    display: none;
+    font-size: 40px;
+}
+
 nav {
+    display: block;
     text-align: center;
     background-color: var(--var4);
     padding: 10px;
@@ -220,7 +235,7 @@ footer p a:hover {
     padding: 2px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 460px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
     header {
         min-height: 100px;
     }
@@ -234,13 +249,29 @@ footer p a:hover {
         line-height: 25px;
     }
 
+    span.menu {
+        display: block;
+    }
+
     nav {
-        text-align: left;
+        text-align: center;
+        padding: 0;
     }
 
     nav a {
+        border-bottom: 1px solid #F0EFD8;
         font-size: 1em;
         display: block;
+        padding: 16px 0;
+    }
+
+    nav a:last-child {
+        border-bottom: none;
+    }
+
+    nav a:hover {
+        border: 1px solid var(--var0);
+        border-radius: 0;
     }
 
     main {
