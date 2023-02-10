@@ -59,18 +59,10 @@ header p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-span {
-    color: #F0EFD8;
-}
-
-span.menu {
+div img.menu {
     display: none;
-    font-size: 40px;
-}
-
-span.close {
-    display: none;
-    font-size: 40px;
+    width: 40px;
+    margin: auto;
 }
 
 nav {
@@ -249,13 +241,14 @@ footer p a:hover {
         line-height: 25px;
     }
 
-    span.menu {
+    div img.menu {
         display: block;
     }
 
     nav {
         text-align: center;
         padding: 0;
+        display: none;
     }
 
     nav a {
@@ -322,5 +315,9 @@ footer p a:hover {
         padding: 10px;
         line-height: 20px;
         text-align: left;
+    }
+
+    .open {
+        display: block;
     }
 }

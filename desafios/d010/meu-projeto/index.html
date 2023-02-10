@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Android</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body onresize="mudouTamanho()">
+<body>
     <header>
         <h1>Curiosidades de Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
-        <span class="material-icons menu" onclick="abrir()">menu</span>
-        <span class="material-icons close" onclick="fechar()">close</span>
+        <div onclick="clicar()">
+            <img class="menu" src="imagens/menu_white.svg" alt="menu">
+        </div>
     </header>
     <nav id="nav">
         <a href="#">Home</a>
