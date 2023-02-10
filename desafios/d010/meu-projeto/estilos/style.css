@@ -63,6 +63,7 @@ div img.menu {
     display: none;
     width: 40px;
     margin: auto;
+    cursor: pointer;
 }
 
 nav {
