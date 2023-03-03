@@ -1,76 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/874828656395059240/1062582689745612940/flork.png" type="image/x-icon">
+    <title>Projetos Curso em Vídeo</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Criando aos poucos</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Home</title>
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <div class="nav-container">
-                    <a href="index.html">
-                        <img id="logo" src="https://cdn.discordapp.com/attachments/874828656395059240/1062582689745612940/flork.png" alt="Flork">
-                    <!-- </a>
-                    <span class="material-icons menu-icon">
-                        menu
-                    </span> -->
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="exercicios.html">Exercícios</a></li>
-                        <li><a href="desafios.html">Desafios</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-        <main>
-            <div class="main-container">
-                <h2>Exercícios</h2>
-                <ul>
-                    <li>
-                        <a href="exercicios/ex001/index.html">Primeiro "Olá, Mundo!" E as tags &lt;h1&gt; e &lt;p&gt;</a>
-                    </li>
-                    <li>
-                        <a href="exercicios/ex002/index.html">Quebra de linhas com a tag &lt;br&gt;, símbolos e emojis</a>
-                    </li>
-                    <li>
-                        <a href="exercicios/ex003/index.html">Testes com imagens</a>
-                    </li>
-                </ul>
-                <div class="btn">
-                    <a href="exercicios.html">Ver mais</a>
-                </div>
-                <h2>Desafios</h2>
-                <ul>
-                    <li>
-                        <a href="desafios/d001/index.html">Desafio das Mensagens</a>
-                    </li>
-                    <li>
-                        <a href="desafios/d002/index.html">Desafio da Imagens</a>
-                    </li>
-                    <li>
-                        <a href="desafios/d003/index.html">Desafio do Mapa</a>
-                    </li>
-                </ul>
-                <div class="btn">
-                    <a href="desafios.html">Ver mais</a>
-                </div>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html" target="_self">
+                <img src="https://cdn.discordapp.com/attachments/874828656395059240/1062582689745612940/flork.png"
+                    alt="Logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="about">
+            <h1 class="title">I am Jena Carry</h1>
+            <p class="subtitle">a web developer</p>
+        </section>
+        <section id="projects">
+            <h2>These are some of my projects</h2>
+            <div class="projects-grid">
+                <a href="https://jenacarry.github.io/projetos-sites/parallax/" target="_blank" rel="noopener" class="grid-link">
+                    <img src="images/parallax.PNG" alt="Parallax" class="grid-image">
+                    <p class="grid-title">
+                        <span class="code">&lt;</span>
+                        Parallax
+                        <span class="code">&#47;&gt;</span>
+                        </span>
+                    </p>
+                </a>
+                <a href="https://jenacarry.github.io/projetos-sites/slideshow/" target="_blank" rel="noopener" class="grid-link">
+                    <img src="images/slideshow.PNG" alt="Slideshow" class="grid-image">
+                    <p class="grid-title">
+                        <span class="code">&lt;</span>
+                        Slideshow
+                        <span class="code">&#47;&gt;</span>
+                        </span>
+                    </p>
+                </a>
+                <a href="https://jenacarry.github.io/projetos-sites/formulario-completo/" target="_blank" rel="noopener" class="grid-link">
+                    <img src="images/formulario.PNG" alt="Formulário completo" class="grid-image">
+                    <p class="grid-title">
+                        <span class="code">&lt;</span>
+                        Formulário
+                        <span class="code">&#47;&gt;</span>
+                        </span>
+                    </p>
+                </a>
             </div>
-        </main>
-
-        <footer>
-            <div class="footer-container">
-                <p>Criado por <a href="https://github.com/JenaCarry" target="_blank" rel="external">JenaCarry</a></p>
-            </div>
-        </footer>
-    </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/903813670b.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
