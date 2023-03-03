@@ -172,6 +172,74 @@ img {
     color: #cab885;
 }
 
+.btn-link {
+    display: inline-block;
+    font-size: 2.2rem;
+    margin: 2rem auto 0 auto;
+    color: var(--var0);
+    background-color: var(--var4);
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    transition: background 0.2s ease-out;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-link:hover {
+    background-color: #8B7CA6;
+}
+
+.btn i {
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
+
+.btn-link:hover .btn i {
+    transform: translateX(3px);
+}
+
+#contact {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: #C4B7DF;
+}
+
+#contact p {
+    font-style: italic;
+    font-weight: 300;
+}
+
+#contact-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    max-width: 980px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#contact-links .btn-profile {
+    color: var(--var4);
+    font-size: 2.5rem;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
+    transition: transform 0.3s ease-out;
+}
+
+.btn-profile {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+#contact-links a:hover {
+    transform: translateY(8px);
+}
+
 #footer {
     text-align: center;
     color: var(--var0);
