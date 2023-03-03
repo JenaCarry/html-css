@@ -169,3 +169,14 @@ img {
 .grid-link:hover .code {
     color: #cab885;
 }
+
+#footer {
+    text-align: center;
+    color: var(--var0);
+    background-color: var(--var4);
+    padding: 1.5rem;
+}
+
+#footer a:hover {
+    color: #dddddd;
+}
